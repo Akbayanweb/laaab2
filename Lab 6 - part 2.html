@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <style type="text/css">
+  .brd {
+    width: fit-content;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+  }
+  
+  .brd h4 {
+    text-align: center;
+  }
+  
+  .brd ol,
+  li,
+  dd,
+  dt {
+    line-height: 1.8;
+  }
+  </style>
+  <style>
+  .b1 {
+    background: red;
+    color: white;
+    font-size: 9pt;
+  }
+  </style>
+  <title>Lab 6 - part 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="brd">
+      <h1 class="bg-primary">Business Growth & Transformation</h1>
+      <p class="text-danger">Are you ready to make it happen with your small business? Print this form or submit it at the end and enjoy the benefit of a FREE 30 Business Transformation Coaching Review.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-success" for="fname">First name: <span style="color:red">*</span></label>
+              <input type="text" id="fname" name="fname" required>
+              <br>
+              <br> </div>
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-success" for="fname">Email Address: <span style="color:red">*</span></label>
+              <input type="text" id="fname" name="fname" required>
+              <br> </div>
+        </div>
+      </div>
+      <p class="bg-warning">Have you seen our Webinar:<span style="color:red">*</span></p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form action="/action_page.php">
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Yes</label>
+              <br> </div>
+          <div class="col">
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> No</label>
+            <br> </div>
+          <div class="col">
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> What webinar? Please send me details</label>
+            <br>
+            <br> </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-info" for="fname">Wed Address: </label>
+              <input type="text" id="fname" name="fname">
+              <br>
+              <br> </form>
+          </div>
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="text-primary" for="fname">Company Name: <span style="color:red">*</span></label>
+              <input type="text" id="fname" name="fname">
+              <br>
+              <br> </form>
+          </div>
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-info" for="fname">Area of Business: </label>
+              <input type="text" id="fname" name="fname">
+              <br> </div>
+        </div>
+      </div>
+      <p>
+        <mark>Are you a new Business? </mark><span style="color:red">*</span></p>
+      <form action="/action_page.php">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Yes</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">No</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Not yet</label>
+      </form>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-warning" for="fname">Date of incorporation: </label>
+              <br>
+              <input type="text" id="fname" name="fname">
+              <br>
+              <br> </div>
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-warning" for="fname">Location: </label>
+              <input type="text" id="fname" name="fname">
+              <br>
+              <br> </div>
+          <div class="col">
+            <form action="/action_page.php">
+              <label class="bg-warning" for="fname">Size of team: <span style="color:red" required>*</span></label>
+              <input type="text" id="fname" name="fname" required placeholder="ex: 23">
+              <br>
+              <br> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="bg-danger">Please describe what your business does(will do), in 10 words or less: <span style="color:red">*</span></p>
+            <textarea name="message" style="width:400px; height: 100px;"></textarea>
+          </div>
+          <div class="col">
+            <p class="bg-danger">Please describe the style and personality of your business in just 5 words: <span style="color:red">*</span></p>
+            <textarea name="message" style="width:400px; height: 100px;"></textarea>
+          </div>
+        </div>
+      </div>
+      <form>
+        <p>
+          <input type="button" onclick="window.location.href = '#history' " ; value=" Next ">
+        </p>
+      </form>
+      <div id="history">
+        <div class="container mt-3">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Do you have a Marketing Plan in place?</th>
+                <th>Do you set a regular Marketing Budget?</th>
+                <th>Have you invested in Marketibg before?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <form action="/action_page.php">
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label>
+                  </td>
+                </form>
+              </tr>
+              <tr>
+                <form action="/action_page.php">
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">No</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">No</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">No</label>
+                  </td>
+                </form>
+              </tr>
+              <tr>
+                <form action="/action_page.php">
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Not yet</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Not yet</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Not sure</label>
+                  </td>
+                </form>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><abbr title="World Health Organization">I have clear objectives to market my business effectively</abbr><span style="color:red">*</span></p>
+        <div class="container mt-3">
+          <form action="/action_page.php">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" >
+              <label class="form-check-label" for="radio1">Yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+              <label class="form-check-label" for="radio2">No</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" >
+              <label class="form-check-label">Not yet</label>
+            </div>
+          </form>
+        </div>
+        <br>
+        <br>
+        <div class="container mt-3">
+          <h3>Do yo like this site?</h3>
+          <form action="/action_page.php">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >
+              <label class="form-check-label" for="check1">Yes</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+              <label class="form-check-label" for="check2">No</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" >
+              <label class="form-check-label">Don`t know</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">OK</button>
+          </form>
+        </div>
+        <p><abbr title="World Health Organization">My objectives are set anually based on market trends</abbr><span style="color:red">*</span></p>
+        <div class="container mt-3">
+          <form action="/action_page.php">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" >
+              <label class="form-check-label" for="radio1">Yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+              <label class="form-check-label" for="radio2">No</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" >
+              <label class="form-check-label">Don`t know</label>
+            </div>
+            <br>
+            <br> </form>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>
+                <mark>What will be your full Marketing Budget this year? </mark><span style="color:red">*</span></p>
+              <textarea name="message" style="width:400px; height: 100px;"></textarea>
+            </div>
+            <div class="col">
+              <div class="container mt-3">
+                <h2>Image</h2> <img src="https://picfiles.alphacoders.com/305/thumb-1920-305501.jpg" class="mx-auto d-block" style="width:50%"> </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          <mark>What does your current Marketing Mix include?</mark> <span style="color:red">*</span></p>
+        <div style="display: flex">
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Twitter</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Website</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Clothing</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Email Signatures</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> E-Shots</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> A-boards</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Window Graphics</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Radio</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Facebook</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Radio</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Pens&Promo</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Loyalty Cards</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Telesales</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Roller Banners</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Internal Fit-out</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> TV</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Linkedln</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Flyers</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Letterheads</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Brochures</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Packaging</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Booklets</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ceiling Dangles</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Internet Banner Ad</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Pinterest</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Business Cards</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Stationery</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> SMS</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Posters</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Stickers</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Vehicle</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Mail Merge</label>
+            <br>
+            <br> </form>
+        </div>
+        <p>
+          <mark> What will you add to your Marketing Mix over the next 6-12 months? </mark><span style="color:red">*</span></p>
+        <div style="display: flex">
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Twitter</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Website</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Clothing</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Email Signatures</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> E-Shots</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> A-boards</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Window Graphics</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Radio</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Facebook</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Radio</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Pens&Promo</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Loyalty Cards</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Telesales</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Roller Banners</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Internal Fit-out</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> TV</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Linkedln</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Flyers</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Letterheads</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Brochures</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Packaging</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Booklets</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ceiling Dangles</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Internet Banner Ad</label>
+            <br>
+            <br> </form>
+          <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Pinterest</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Business Cards</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Stationery</label>
+            <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> SMS</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Posters</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Stickers</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Vehicle</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Mail Merge</label>
+            <br>
+            <br> </form>
+        </div>
+        <div class="container mt-3">
+          <div style="display: flex">
+            <form>
+              <button class="btn btn-primary btn-lg" class="btn btn-primary" disabled> <span class="spinner-grow spinner-grow-sm"></span>
+                <p>
+                  <input type="button" value=" Submit this Audit" onclick="window.location.href = '#history' " ; class="b1">
+                </p>
+              </button>
+            </form>
+            <form>
+              <button class="btn btn-primary btn-sm" class="btn btn-primary"> <span class="spinner-border spinner-border-sm"></span> <img src="https://altosrepro.com/beta/upload/projects/bwp.gif" alt="" width="40">
+                <p>
+                  <input type="button" value=" Print form" onclick="window.location.href = '#history' " ; class="b1"> </p>
+              </button>
+            </form>
+          </div>
+        </div>
+        <br>
+        <br>
+        <form action="/action_page.php">
+          <label for="fname"><code>Company Name: </code><span style="color:red">*</span></label>
+          <input type="text" id="fname" name="fname" required="required">
+          <br>
+          <br> </form>
+        <form action="/action_page.php">
+          <label for="fname"><code>Area of Business: </code></label>
+          <input type="text" id="fname" name="fname">
+          <br>
+          <br>
+        </form>
+        <form action="/action_page.php">
+          <label for="fname"><code>Are you a new Business? </code><span style="color:red">*</span></label>
+          <input type="text" id="fname" name="fname" required="required">
+          <br>
+          <br> </form>
+        <div class="container mt-3">
+          <form action="/action_page.php">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Yes</label>
+              </li>
+              <li class="list-group-item">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">No</label>
+              </li>
+              <li class="list-group-item">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Not yet</label>
+              </li>
+            </ul>
+          </form>
+          <br> </div>
+        <div class="container mt-3">
+          <h2>Choose to answer</h2>
+          <select multiple class="form-select" id="sel2" name="sellist2">
+            <option>Date of incorporation</option>
+            <option>Location</option>
+            <option>Sixe of team<span style="color:red">*</span></option>
+          </select>
+          <form action="/action_page.php">
+            <input type="text" id="fname" name="fname" required="required" placeholder="ex: 23">
+            <br>
+            <br> </form>
+          <button type="submit" class="btn btn-primary mt-3">Press</button>
+          </form>
+        </div>
+        <div class="container mt-3">
+          <h4>Please describe what your businessdoes(will do), in 10 words or less: <span style="color:red">*</span></h4>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email">
+                <textarea name="message" style="width:400px; height: 100px;" required="required"></textarea>
+                <form>
+            </div>
+        </div>
+        </label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Comment </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Press</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
